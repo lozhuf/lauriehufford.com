@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: webfactory/ssh-agent@v0.2.0
-        with:
+      with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - name: Run & Deploy
       run: swift run LaurieHufford_com --deploy
