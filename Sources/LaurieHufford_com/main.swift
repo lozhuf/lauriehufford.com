@@ -8,7 +8,7 @@ try LaurieHufford_com()
     .publish(
         withTheme: .lozhuf,
         additionalSteps: [
-            .deploy(using: .gitHubPages("lozhuf/lozhuf.github.io"))
+//            .deploy(using: .gitHub("lozhuf/lozhuf.github.io"))
         ],
         plugins: [
             .splash(withClassPrefix: "")
