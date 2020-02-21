@@ -8,6 +8,7 @@ try LaurieHufford_com()
     .publish(
         withTheme: .lozhuf,
         additionalSteps: [
+            .copyFile(at: "Resources/.noJekyll"),
 //            .deploy(using: .gitHub("lozhuf/lozhuf.github.io"))
         ],
         plugins: [
