@@ -10,3 +10,4 @@ I spend my days making shiny things as an iOS engineer @ [Tjek](https://tjek.com
 
 - [Twitter](https://twitter.com/lozhuf)
 - [LinkedIn](https://www.linkedin.com/in/lauriehufford/)
+- [GitHub](https://github.com/lozhuf)
