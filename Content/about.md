@@ -2,5 +2,11 @@
 title: About
 ---
 
+Hi, I'm Laurie 👋 
 
-iOS Developer with a history of both managing and delivering projects. Experience from communicating with clients and prototyping, to developing and maintaining mobile applications.
+I'm a Brit living near the lovely town of Køge in Denmark, with my wife and two kids.
+
+I spend my days making shiny things as an iOS engineer @ [Tjek](https://tjek.com).
+
+- [Twitter](https://twitter.com/lozhuf)
+- [LinkedIn](https://www.linkedin.com/in/lauriehufford/)
