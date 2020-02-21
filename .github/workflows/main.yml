@@ -1,0 +1,9 @@
+name: Deploy
+on: push
+jobs:
+  test:
+    name: Build & Test
+    runs-on: macos-latest
+    steps:
+      - name: Build
+        run: swift run LaurieHufford_com --deploy
