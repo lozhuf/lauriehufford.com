@@ -15,5 +15,7 @@ jobs:
     - uses: webfactory/ssh-agent@v0.2.0
       with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    - name: Run & Deploy
+    - name: Generate
+      run: swift run LaurieHufford_com
+    - name: Deploy
       run: swift run LaurieHufford_com --deploy
