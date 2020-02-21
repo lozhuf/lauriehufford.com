@@ -39,11 +39,11 @@
       },
       {
         "package": "Publish",
-        "repositoryURL": "https://github.com/baguio/Publish.git",
+        "repositoryURL": "https://github.com/johnsundell/publish.git",
         "state": {
-          "branch": "master",
-          "revision": "c6581a5887926067f25bb7684bfcf2c86567b557",
-          "version": null
+          "branch": null,
+          "revision": "9458bacb992f1fde35648fd4bb379fb7335d571c",
+          "version": "0.5.0"
         }
       },
       {

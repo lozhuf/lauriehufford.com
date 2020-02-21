@@ -7,9 +7,9 @@ import SplashPublishPlugin
 try LaurieHufford_com()
     .publish(
         withTheme: .lozhuf,
+        deployedUsing: .gitHub("lozhuf/lozhuf.github.io"),
         additionalSteps: [
-            .copyFile(at: "Resources/.noJekyll"),
-//            .deploy(using: .gitHub("lozhuf/lozhuf.github.io"))
+            .copyFile(at: "Resources/.noJekyll")
         ],
         plugins: [
             .splash(withClassPrefix: "")
