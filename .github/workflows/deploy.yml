@@ -1,0 +1,16 @@
+name: Deploy Website
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run & Deploy
+      run: swift run LaurieHufford_com --deploy
